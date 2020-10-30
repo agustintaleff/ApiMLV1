@@ -53,7 +53,7 @@ app.post('/login', (req, res) => {
   }
 });
 
-app.post('/test', (req, res) => {
+app.get('/test', (req, res) => {
   try {
     const meliObject = new MeliObject(res.locals.access_token);
     const user = await meliObject.get('/users/me');
