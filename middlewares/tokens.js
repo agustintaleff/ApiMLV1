@@ -4,7 +4,7 @@ require('dotenv').config();
 // const { CLIENT_ID, CLIENT_SECRET, REDIRECT_URI } = process.env;
 const CLIENT_ID = '6964580600876690';
 const CLIENT_SECRET = 'HWuRiEBuFFDvKOtODV95nqUCaJPXRs1c';
-const REDIRECT_URI = 'https://drdruck.herokuapp.com/';
+const REDIRECT_URI = 'https://drdruck.herokuapp.com';
 const tokens = {
   access_token: null,
   expires: null,
