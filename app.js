@@ -39,7 +39,7 @@ app.get('/test', (req, res) => {
 });
 
 app.get('/nomongo', (req, res) => {
-  res.end('No seas mongo');
+  res.end('No seas mongoDB');
 });
 
 
