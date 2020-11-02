@@ -35,8 +35,11 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.json());
 
 app.get('/test', (req, res) => {
-
   res.end('puto ' + SYS_PWD + 'el que lee');
+});
+
+app.get('/nomongo', (req, res) => {
+  res.end('No seas mongo');
 });
 
 
